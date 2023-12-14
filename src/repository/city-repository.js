@@ -23,7 +23,7 @@ class CityRepository {
         }
     }
 
-    async updateCity(cityid, data){
+    async updateCity(cityId, data){
         try{
             const city = await City.update(data, {
                 where : {
@@ -38,12 +38,12 @@ class CityRepository {
         }
     }
 
-    async deleteCity({cityId}){
+    async deleteCity(cityId){
         try{
             await City.destroy({
                 where: {
-                    id: cityId
-                }
+                    id: cityId,
+                },
             });
             return true;
         }

@@ -1,4 +1,4 @@
-const city = require('../../models/city');
+const city = require('../models/city');
 const { CityService } = require('../services/index');
 
 const cityService = new CityService();
