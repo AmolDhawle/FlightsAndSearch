@@ -29,7 +29,7 @@ class CityRepository {
                 where : {
                     id: cityId
                 }
-            })
+            });
             return city;
         }
         catch(error){
