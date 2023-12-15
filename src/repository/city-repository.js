@@ -28,7 +28,6 @@ class CityRepository {
     async getAllCities(filter){
         try{
             if(filter.name){
-                console.log(filter.name);
                 const cities = await City.findAll({
                     where: {
                         name: {
