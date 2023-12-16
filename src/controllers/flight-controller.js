@@ -13,7 +13,7 @@ const create = async(req,res) => {
             departuretime: req.body.departuretime,
             price: req.body.price
         }
-        const flight = await flightService.createFlight(rflightRequestData);
+        const flight = await flightService.createFlight(flightRequestData);
         return res.status(200).json({
             data: flight,
             status: true,
