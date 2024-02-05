@@ -48,6 +48,7 @@ To get started with the Flights and Search Service, follow these steps:
 
 -Once you've added  your db config as listed above, go to the src folder from your terminal and execute `npx sequelize db:create`
 and then execute  `npx sequelize db:migrate`.
+Start the service using `npm start`.
 Access the endpoints using a REST client or integrate them into your application.
     
     - A flight belongs to one airport but one airplane can be used in multiple flights
