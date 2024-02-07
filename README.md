@@ -3,25 +3,25 @@
 Welcome to the Flights and Search Service! This service provides APIs to manage flights, cities, and airports within the airline booking management system.
 
 # Endpoints
-1. Create City: POST /city - Create a new city.
+1. Create City: POST /api/v1/city - Create a new city.
 
-2. Delete City: DELETE /city/:id - Delete a city by ID.
+2. Delete City: DELETE /api/v1/city/:id - Delete a city by ID.
 
-3. Get City: GET /city/:id - Get details of a city by ID.
+3. Get City: GET /api/v1/city/:id - Get details of a city by ID.
 
-4. Get All Cities: GET /city - Get details of all cities.
+4. Get All Cities: GET /api/v1/city - Get details of all cities.
 
-5. Update City: PATCH /city/:id - Update details of a city by ID.
+5. Update City: PATCH /api/v1/city/:id - Update details of a city by ID.
 
-6. Create Flight: POST /flights - Create a new flight.
+6. Create Flight: POST /api/v1/flights - Create a new flight.
 
-7. Get All Flights: GET /flights - Get details of all flights.
+7. Get All Flights: GET /api/v1/flights - Get details of all flights.
 
-8. Get Flight: GET /flights/:id - Get details of a flight by ID.
+8. Get Flight: GET /api/v1/flights/:id - Get details of a flight by ID.
 
-9. Update Flight: PATCH /flights/:id - Update details of a flight by ID.
+9. Update Flight: PATCH /api/v1/flights/:id - Update details of a flight by ID.
 
-10. Create Airport: POST /airports - Create a new airport.
+10. Create Airport: POST /api/v1/airports - Create a new airport.
 
 # Getting Started
 To get started with the Flights and Search Service, follow these steps:
